@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, info3, url, repo, img, id } = project;
+            const { title, info, info2, info3, info4, info5, url, repo, img, id, img2 } = project;
 
             return (
               <Row key={id}>
@@ -48,7 +48,9 @@ const Projects = () => {
                             ''}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
-                        <p className="mb-4">{info3 || ''}</p> 
+                        <p className="mb-4">{info3 || ''}</p>
+                        <p className="mb-4">{info4 || ''}</p>
+                        <p className="mb-4">{info5 || ''}</p> 
                       </div>
                       {url && (
                       <a
@@ -102,7 +104,8 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
+                            <ProjectImg alt={title} filename={img} /><hr />
+                            <ProjectImg alt={title} filename={img2} />
                           </div>
                         </Tilt>
                       </a>

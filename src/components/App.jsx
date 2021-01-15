@@ -5,7 +5,6 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import ParticleScript from './scripts';
-
 import { PortfolioProvider } from '../context/context';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';

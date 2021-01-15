@@ -29,30 +29,34 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'text_mining_python.PNG',
-    title: 'Text mining using Natural Language Processing(NLP) in Python',
+    title: 'Text mining using NLP in Python ( Technology - Python, Machine Learning, NLTK, Tableau )',
     info: 'I\'m a big fan of Open Source libraries and here using NLTK to performing following data analysis:',
     info2: '1. Identified protagonist from a book series and implemented cosine similarity to analyze the difference between two different books’ summary of the same author',
     info3: '2. Created a model which analyzed around 12,000 book summaries with different genres. After making the model train on the provided dataset, it predicts the genre of a new book input to the model',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/PARTHSONI95/Text-Mining-Using-NLP-In-Python', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'rankingOutput.jpg',
+    title: 'Cricket Ranking Scheme ( Technology - Java 8, JUnit, Tableau )',
+    info: 'Implemented a ranking system where evaluated an expression P(xi,xj) i.e. the probability that xi would beat xj using binomial distribution and welch t-test probability density functions',
+    info2: 'Programmed an output score which will help to predict which cricket team has a high chance of winning the future cup',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/PARTHSONI95/RankingSystemAlgorithm', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'terra.jpg',
+    img2: 'CodeDeploy.png',
+    title: 'AWS Web Project ( Technology - Nodejs, AWS, Terraform, Packer, Github, Ubuntu(Linux) )',
+    info: 'Developed RESTful web application in Node.js hosted on AWS platform using IaaS, PaaS and SaaS services such as EC2, VPC, ELB, Route53, RDS, S3, DynamoDB, ASG, IAM, SNS, SES, SQS, Cloudwatch automated with the help of Terraform and Packer',
+    info2: 'Implemented Continuous Integration - Continuous Delivery (CI/CD) using Github Actions & Amazon CodeDeploy. Also added event-driven notifications using SNS, SES, AWS Lambda and DynamoDB',
+    info3: 'Added event-driven notifications using SNS, SES, AWS Lambda (main component), and DynamoDB',
+    info4: 'Secured the application endpoints by importing SSL certificate in AWS Certificate Manager',
+    info5: 'Configured load distribution on EC2 using AWS ELB along with autoscaling policies triggered by high/low alerts in Cloudwatch',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/SoniParth-Fall2020/webapp', // if no repo, the button will not show up
   },
 ];
 
@@ -81,5 +85,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
