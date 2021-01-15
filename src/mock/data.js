@@ -51,7 +51,7 @@ export const projectsData = [
     img2: 'CodeDeploy.png',
     title: 'AWS Web Project ( Technology - Nodejs, AWS, Terraform, Packer, Github, Ubuntu(Linux) )',
     info: 'Developed RESTful web application in Node.js hosted on AWS platform using IaaS, PaaS and SaaS services such as EC2, VPC, ELB, Route53, RDS, S3, DynamoDB, ASG, IAM, SNS, SES, SQS, Cloudwatch automated with the help of Terraform and Packer',
-    info2: 'Implemented Continuous Integration - Continuous Delivery (CI/CD) using Github Actions & Amazon CodeDeploy. Also added event-driven notifications using SNS, SES, AWS Lambda and DynamoDB',
+    info2: 'Implemented Continuous Integration - Continuous Delivery (CI/CD) using Github Actions & Amazon CodeDeploy',
     info3: 'Added event-driven notifications using SNS, SES, AWS Lambda (main component), and DynamoDB',
     info4: 'Secured the application endpoints by importing SSL certificate in AWS Certificate Manager',
     info5: 'Configured load distribution on EC2 using AWS ELB along with autoscaling policies triggered by high/low alerts in Cloudwatch',
@@ -86,4 +86,4 @@ export const footerData = {
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
-};
+};  
