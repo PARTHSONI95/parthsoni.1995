@@ -58,6 +58,18 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/SoniParth-Fall2020/webapp', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'bigData1.JPG',
+    img2: 'bigData4.JPG',
+    title: 'New York Taxi Big Data Project ( Technology - Java, Hadoop, Hive, Pig, Mahout, MongoDB, Python, Tableau, Sqoop, Oozie )',
+    info: 'Developed Map-reduce jobs in Java for data preprocessing and analytics (for instance:- using Mahout library to find Pearson correlation between tip paid and the number of passengers) including combiners as well as custom partitioners to optimize the complex jobs so that CPU time gets well distributed amongst all. Also imported and exported the data into HDFS using Sqoop',
+    info2: 'Used Pig scripts for bloom filtering, transformations (for well-structured format), map side joins plus a few pre-aggregations',
+    info3: 'Analyzed data using Hive queries in an optimized way by making use of the bucketing principle',
+    info4: 'Organized Hadoop jobs using Oozie Workflow Scheduler and appealing output was presented with the masterpiece Tableau!',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
